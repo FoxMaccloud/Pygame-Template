@@ -1,8 +1,8 @@
 import pygame
 import random
  
-WIDTH = 360
-HEIGHT = 480
+WIDTH = 1280
+HEIGHT = 720
 FPS = 30
  
 # Colors
@@ -18,7 +18,8 @@ pygame.init()
 # (Initialize sound). Doesnt work... I don't know why.
 #pygame.mixer.init()
 
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
+#screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
+screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.RESIZABLE)
 pygame.display.set_caption("My Game")
 clock = pygame.time.Clock()
  
