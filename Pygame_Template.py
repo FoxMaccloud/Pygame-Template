@@ -3,7 +3,7 @@ import random
  
 WIDTH = 1280
 HEIGHT = 720
-FPS = 30
+FPS = 60
  
 # Colors
 WHITE = (255, 255, 255)
